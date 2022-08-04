@@ -3121,7 +3121,7 @@
  *   TFT_ROTATE_270, TFT_ROTATE_270_MIRROR_X, TFT_ROTATE_270_MIRROR_Y,
  *   TFT_MIRROR_X, TFT_MIRROR_Y, TFT_NO_ROTATION
  */
-#define TFT_ROTATION TFT_ROTATE_180
+
 
 //=============================================================================
 //============================  Other Controllers  ============================
@@ -3145,7 +3145,7 @@
   #define BUTTON_DELAY_MENU 250 // (ms) Button repeat delay for menus
   #define TOUCH_SCREEN_CALIBRATION
   
-  #define KP3s_screen_rotate //Enable for rotete screen 180 degree
+  //#define KP3s_screen_rotate //Enable for rotete screen 180 degree
 
   #ifdef KP3s_screen_rotate
     /* 180 Rotated screen colibration*/
